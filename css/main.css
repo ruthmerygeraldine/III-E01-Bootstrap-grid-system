@@ -1,0 +1,37 @@
+/* Inserta tu código aqui */
+*{
+	padding: 0px;
+	margin:0px;
+}
+.pagina{
+	padding: 0px;
+}
+.container{
+	width: 980px;
+	margin:0 auto;
+}
+.titulo{
+	background: gray;
+	color: white;
+	font-size:16px;
+	padding: 3px 5px;
+	width: 50%;
+}
+.titolo_parrafo{
+ 	font-weight:bold;
+	font-size: 14px;
+}
+.subtitulo{
+	font-weight: bold;
+	font-size: 12px;
+}
+.ave{
+	font-weight: bold;
+	font-size: 12px;
+}
+.fecha{
+	width: 30px;
+	height: 30px;
+	background: gray;
+
+}
