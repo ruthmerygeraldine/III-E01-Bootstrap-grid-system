@@ -42,21 +42,57 @@
 
 }
 /* empezamos con los estilos:*/
+.menu{
+	display: flex;
+}
+.menu .site{
+	margin-right: 85px;
+	font-size: 36px;
+}
+.menu ul{
+	padding:15px 0px;
+	list-style: none;
+	display: flex;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	margin-right: 15px;
+}
+.menu ul li input{
+	margin: 0px 10px;
+}
+.menu .col-sm-8{
+	padding-left: 300px;
+}
+.menu>.col-sm-8 ul>li:nth-child(3){
+	border-left: 2px solid black;
+}
+
+.menu2{
+	padding: 25px 0px 0px 0px;
+	background:#D6D6D6;
+	margin-bottom: 15px;
+}
+.menu2 .men{
+	display: flex;
+}
+.menu2 .men li{
+	padding: 0px 10px;
+}
+
+ul li a{
+	text-decoration: none;
+}
+
+
+
 p{
 	margin-bottom: 0px;
 }
-.menu1{
-	display: flex;
-}
-.menu1 p{
-	font-size: 36px;
-	font-weight: bold;
-}
-.menu2{
-	display: flex;
-	text-align: -webkit-right;
-    top: 10px;
-}
+
+
+
 
 .nono{
 	padding-left: 15px;
@@ -82,7 +118,7 @@ p{
 	display: flex;
 }
 
-.etiqueta .link_sect{
+.etiqueta ul .link_sect{
 	display: flex;
 }
 
