@@ -16,14 +16,15 @@
 	<!-- Inserta tu código aqui -->
   <div class="container">
     <div class="container-fluid">
-        <div class="row">
-          <div class="menu1">
+        <div class="row menu">
+          <div class="col-sm-4 menu1">
             <p>Site name</p>
-            <span class="glyphicon glyphicon-home">Noticias</span>
-            <span class="glyphicon glyphicon-home">Enlaces RSS</span>
           </div>
-          <nav class="menu2">
-            <span class="glyphicon glyphicon-align-justify"></span>
+          <nav class="col-sm-8 menu2">
+            <div class="no"><span class="glyphicon glyphicon-home">Noticias</span></div>
+            <div class="no"><span class="glyphicon glyphicon-home">Enlaces RSS</span></div>
+            <input type="search" name="Busca" placeholder="Ingresa tu Busqueda">
+            <input type="submit" value="Buscar">
           </nav>
         </div>
         <div class="row">
@@ -195,66 +196,56 @@
 
         </div>
            <footer class ="row">
-            <div></div>
+            <div class="rayita"></div>
             <div class="col-sm-3">
-              <div class="foo_1">
                 <p class="subtitulo">Rubros</p>
                 <ul class="ave">
-                  <li><span class="glyphicon glyphicon-bookmark">Actualidades</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">En Directo</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Reporte Financiero</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Nuestros Clientes</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">De Nosotros a Ustedes</span></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Actualidades</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">En Directo</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Reporte Financiero</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Nuestros Clientes</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">De Nosotros a Ustedes</a></li>
                 </ul>
-              </div>
             </div>
 
             <div class="col-sm-3">
-              <div class="foo_2">
               <p class="subtitulo">Expertos</p>
               <ul class="ave">
-                  <li><span class="glyphicon glyphicon-bookmark">Finanzas y Fiscalización</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Inversión y equipos</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Medio Ambiente</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Habitad y Urbanismo</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Sonidad</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Social y Servicios</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Transporte</span></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Finanzas y Fiscalización</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Inversión y equipos</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Medio Ambiente</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Habitad y Urbanismo</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Sonidad</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Social y Servicios</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Transporte</a></li>
                 </ul>
-            </div>
 
             </div>
             <div class="col-sm-2">
-              <div class="foo_3">
                 <p class="subtitulo">Suscripción</p>
                 <ul class="ave">
-                  <li><span class="glyphicon glyphicon-bookmark">Todo el Tipo</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Flujo RSS para Expertos</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark"></span></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Todo el Tipo</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Flujo RSS para Expertos</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Todo el Tipo</a></li>
                 </ul>
-              </div>
 
             </div>
             <div class="col-sm-2">
-              <div class="foo_4">
-                <p class="subtitulo">Nosotros</p>Noticias
+                <p class="subtitulo">Nosotros</p>
                 <ul class="ave">
-                  <li><span class="glyphicon glyphicon-bookmark">Quienes Somos</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Plan del Sitio</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Informacion Legal</span></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Quienes Somos</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Plan del Sitio</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Informacion Legal</a></li>
                 </ul>
-              </div>
             </div>
 
             <div class="col-sm-2">
-              <div class="foo_5">
                 <p class="subtitulo">Contacto</p>
                 <ul class="ave">
-                  <li><span class="glyphicon glyphicon-bookmark">Contáctanos</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">FAQ</span></li>
-                  <li><span class="glyphicon glyphicon-bookmark">Haga sus PReguntas</span></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Contáctanos</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">FAQ</a></li>
+                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Haga sus PReguntas</a></li>
                 </ul>
-              </div>
             </div>
           </footer>
 
