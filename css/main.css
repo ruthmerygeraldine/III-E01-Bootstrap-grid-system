@@ -7,19 +7,22 @@
 	padding: 0px;
 }
 .container{
-	width: 960px;
+	padding:0px;
 	margin:0 auto;
 }
 .titulo{
-	background: gray;
+	background: #929292;
 	color: white;
 	font-size:16px;
 	padding: 3px 5px;
 	width: 50%;
+	margin-bottom: 15px;
 }
-.titolo_parrafo{
+.titulo_parrafo{
  	font-weight:bold;
 	font-size: 14px;
+    margin-bottom: 0px;
+
 }
 .subtitulo{
 	font-weight: bold;
@@ -30,12 +33,18 @@
 	font-size: 12px;
 }
 .fecha{
-	width: 30px;
-	height: 30px;
-	background: gray;
+	padding: 10px 10px;
+    width: 77px;
+    height: 69px;
+    background: #AAAAAA;
+    text-align: center;
+    font-weight: bold;
 
 }
 /* empezamos con los estilos:*/
+p{
+	margin-bottom: 0px;
+}
 .menu1{
 	display: flex;
 }
@@ -52,6 +61,63 @@
 .nono{
 	padding-left: 15px;
 }
+
+.fil_A_1 div, .fil_A_2 div, .fil_A_3 div{
+	display: flex;
+}
+
+.fil_B_2 .cuatro{
+	display: flex;
+}
+
+.fil_B_2 .dentro{
+	margin-left: 10px;
+}
+
+.vide{
+	text-align: center;
+}
+
+.etiqueta{
+	display: flex;
+}
+
+.etiqueta .link_sect{
+	display: flex;
+}
+
+
+ul{
+	list-style: none;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.fil_B_1{
+	background: #D6D6D6;
+}
+
+.fil_C_2 , .fil_C_3{
+	background: #EBEBEB;
+}
+.fil_C_1 ul{
+	list-style: none;
+}
+.fil_C_1 ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+
+
+
+
+
+
+
 
 footer .rayita{
 	width: 100%;
