@@ -61,6 +61,12 @@
 }
 .menu ul li input{
 	margin: 0px 10px;
+	border:1px solid black;
+    padding: 0px 12px;
+}
+.menu ul li input:nth-child(4){
+	border-radius: 12%;
+	padding: 0px 6px;
 }
 .menu .col-sm-8{
 	padding-left: 300px;
@@ -70,21 +76,28 @@
 }
 
 .menu2{
-	padding: 25px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
 	background:#D6D6D6;
 	margin-bottom: 15px;
+	width: 100%;
+}
+.men li{
+	padding:0px 15px 10px 15px;
+
+}
+.men li a{
+	text-decoration: none;
+	color: black;
 }
 .menu2 .men{
 	display: flex;
+	margin-bottom: 0px;
+    margin-left: 10px;
 }
-.menu2 .men li{
-	padding: 0px 10px;
+.men li:hover{
+	background-color: white;
+	list-style: none;
 }
-
-ul li a{
-	text-decoration: none;
-}
-
 
 
 p{
