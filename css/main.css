@@ -21,7 +21,7 @@
 .titulo_parrafo{
  	font-weight:bold;
 	font-size: 14px;
-    margin-bottom: 0px;
+    margin-bottom: 8px;
 
 }
 .subtitulo{
@@ -98,10 +98,64 @@
 	background-color: white;
 	list-style: none;
 }
+.ave{
+	margin-bottom: 10px 5px;
+}
+.ave p{
+	padding: 1px 5px 1px 0px;
+}
+.ave p:nth-child(2){
+	padding-left:5px;
+	border-left: 1px solid black;
+	font-size: 10px;
+}
+.ver_etiqueta ul{
+	display: flex;
+}
+.ver_etiqueta ul li{
+	list-style: none;
+}
+.ver_etiqueta ul li a{
+	text-decoration: none;
+}
+.ver_etiqueta p{
+	padding-right: 10px;
+}
+.ver_etiqueta ul li {
+	padding: 0px 5px 0px 0px;
+}
+.etiqueta{
+	text-align: right;
+    padding-left: 20px;
+}
+.negro{
+	background-color: black;
+	color: white;
+	width: 30%;
+}
+.junto p{
+    width: 114px;
+    height: 30px;
+}
+.ave2 p:nth-child(2){
+	padding-left:5px;
+	border-left: 1px solid black;
+	font-size: 12px;
+}
+.ave2 p{
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 38px;
+}
+.ave2 p:nth-child(2){
+    padding-top: 8px;
 
-
-p{
-	margin-bottom: 0px;
+}
+.imagen img{
+	width: 100%;
+}
+.imagen{
+	margin-bottom:10px;
 }
 
 
@@ -127,13 +181,6 @@ p{
 	text-align: center;
 }
 
-.etiqueta{
-	display: flex;
-}
-
-.etiqueta ul .link_sect{
-	display: flex;
-}
 
 
 ul{
